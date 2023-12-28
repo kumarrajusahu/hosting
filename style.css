@@ -1,0 +1,487 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+/*--------------------------------------------------------------------navigation bar------*/
+#navbar{
+    background-color:rgb(0,69,62);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+/*------------box1----------------------*/
+.box1{
+    height: 56px;
+    width: 6rem;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+   padding: .3%;
+   margin-top:0.09rem;
+   position:relative;
+   right: 10px;
+  
+}
+.box1 a img{
+    
+    width: 100%;
+    margin-top:11.45%;
+}
+
+.box1:hover{
+    border: 1px solid white;
+}
+
+
+
+/*--------------box2---------------------*/
+
+
+.box2{
+    height: 56px;
+    width: 6rem;
+    display: flex;
+    position: relative;
+    right: 24px;
+    margin-top: 2px;
+}
+
+.box2 #deliver-to{
+    position: relative;
+    bottom: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    padding:5px 0 px 0;
+    left:0px ;
+}
+.box2 .loc-icon p{
+    width: 20px;
+    height: 20px;
+
+}
+.box2 .loc-icon{
+    padding-left: 5px;
+}
+
+.box2:hover{
+    border: 1px solid white;
+}
+/*--------------------box3-----------------------------------------------------------*/
+.box3{
+    color: aliceblue;
+    display: flex;
+    width:30rem;
+    height: 60%;
+    padding: 11px 8px 11px 8px;
+    position: relative;
+    right: 36px;
+
+}
+.box3 .select{
+display: flex;
+background-color:rgb(230,230,230);
+color: black;
+height: 38px;
+border-radius:5px 0px 0px 5px;
+}
+.box3 .select #drop{
+    height: 15px;
+    position: relative;
+    top: 17px;
+    background-color:rgb(230,230,230);
+    color: rgb(102,102,102);
+    border: 0px;
+}
+.box3 .search input{
+    height: 38px;
+    width: 384px;
+    border-style: none;
+}
+.search-icon div i{
+    height: 38px;
+    background-color:rgb(255,202,189);
+    width: 39px;
+    position: relative;
+    bottom: 16.5px;
+    display: flex;
+    justify-content: center;
+    padding-top:11px ;
+    border-radius:0px 5px 5px 0px;
+}
+/*-----------------box4-------------*/
+.box4{
+    height: 56px;
+    width: 4.6rem;
+    display: flex;
+    padding: 5px;
+    margin-left:-16px ;
+    margin-right: -1.5rem;
+    margin-top:.13rem;
+    position: relative;
+    right: 36px;
+}
+
+.box4 .usa-flag img{
+    width: 18px;
+    height: 16px;
+}
+.box4 .usa-flag {
+    width: 21px;
+    height: 16px;
+    padding-top: 20px;
+}
+.box4  p{
+    color: white;
+    font-size: 18px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.box4 #language{
+    height: 10px;
+    width: 16px;
+    padding-top: 18px;
+    margin-top: 18px;
+    color: white;
+    background-color:rgb(0,69,62) ;
+    border:0px;
+}
+.box4:hover{
+    border: 1px solid white;
+}
+/*----------------box5---------*/
+.box5{
+    width:7.5%;
+    height:56px;
+    color: aliceblue;
+    display: flex;
+    margin: 2px;
+    font-size: 10px;
+    display: inline;
+    padding-left: 3px;
+    position: relative;
+    right:27px;
+}
+
+.box5 select{
+    width: 15px;
+    color: aliceblue;
+    background-color:rgb(0,69,62);
+    border: 0px;
+    position: relative;
+    left: 52px;
+    top:-28px;
+}
+.box5 p{
+    font-size:larger;
+    font-weight: 800;
+}
+.box5 > div{
+    position: relative;
+    top: 10px;
+}
+.box5:hover{
+    border: 1px solid white;
+}
+
+/*--------------box6---------------*/
+.box6{
+    height: 56px;
+    width: 6%;
+    display: flex;
+    color: white;
+    padding: 0px;
+    display: inline;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   position: relative;
+    right: 40px;
+}
+.box6 .return{
+    padding: 0px;
+    position: top 10px;
+}
+.return>p{
+    position:bottom 10px;
+}
+
+.box6:hover{
+    border: 1px solid white;
+}
+/*---------------box7------------*/
+.box7 a {
+    height: 50px;
+    width:5%;
+    position: relative;
+    top:20px;
+    margin-left: 5px;
+    margin-right: 10px;
+    display: flex;
+}
+.box7 p{
+    color:white;
+    position: relative;
+    top: -45px;
+    left:24px;
+}
+
+.box7:hover{
+    border:1px solid white;
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+.box7{
+    height: 56px;
+    width:5%;
+    margin-right: 0rem;
+    position: relative;
+    right: 40px;
+}
+
+/*-----------main-----------------------------------------------------------*/
+/*-----------background-image-----*/
+.container-top{
+    width:100%;
+    height: 400px;
+   
+    background-image: url(https://m.media-amazon.com/images/I/71j8damPo5L._SX3000_.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.container-bottom{ 
+    width: 95%;
+    height: 20px;
+    color:black;
+    background-color:rgb(245,246,246);
+    position:relative;
+    bottom:251px;
+    display: flex;
+    padding: 0 87px ;
+    margin-left:15px;
+    font-size: 14px;
+    line-height: 20px !important;
+
+}
+  /*-----------shopping------------*/
+.shopping{
+    height:1764px;
+    width: 98.75%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    position: relative;
+   top: -235px;
+   background-color:rgb(227,230,230) ;
+
+}
+.shopping .box div {
+    display: flex; 
+    height: 200px;
+    width: 200px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(255,255,255) ;
+
+
+    
+}
+.shopping .box div img{
+    height: 93px;
+    width: 80px;
+    position: relative;
+    /* top: 100px; */
+}
+.shopping .box>h3{
+padding-left: 3px;    
+}
+.shopping .box{
+    margin: 10px;
+    height: 300px;
+    background-color: white;
+}
+.shopping .box:hover{
+    border:3px solid white;
+}
+.shopping .box div .single img{
+    height: 200px;
+    width: 188px;
+
+}
+/*---------horizontal scroll------------------*/
+.shopping .horizontal-scroll{
+    height: 222px;
+    width:98.9%;
+    margin: 10px;
+    display: flex;
+    /* flex-flow: raw wrap; */
+    justify-items: center;    
+
+}
+
+
+.shopping p{
+    padding-left: 14px;
+    margin: 0;
+    height: 32px;
+    width:100%;
+    font-size: 22px;
+    background-color: rgb(255,255,255);
+}
+.shopping .horizontal-scroll div img{
+    width: 290px;
+    padding: 4px;
+    height: 213px;
+    background-color:rgb(247,248,248) ;
+}
+.shopping .horizontal-scroll div {
+    width: 334px;
+    padding: 4px;
+    height: 222px;
+    display: flex;
+    background-color:rgb(247,248,248) ;
+  
+
+}
+.shopping .horizontal-scroll div img:hover{
+    border:3px solid white;
+   
+}
+ #back-to-top a p{
+    height:40px;
+    
+    text-align: center;
+    background-color :rgb(55,71,90);
+    color:white;
+    text-decoration: none;
+} 
+.shopping #back-to-top{
+    width: 100%;
+}
+a{
+     text-decoration: none;
+}
+/*--------------footer-----------------------*/
+footer{
+    height: 371px;
+    width: 98.7%;
+    margin-top: 55px;
+    background-color:rgb(19,26,34)
+}
+.footer-top{
+    height: 200px;
+    background-color:rgb(35,47,62) ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: baseline;
+    width: 100%;
+}
+.footer-top-text{
+    display: flex;
+    flex-direction: column;
+    height: 184px;
+
+}
+.footer-top-text h4{
+    width: 100%;
+    position: relative;
+    bottom: -34px;
+    left:74px;
+}
+.footer-top-text pre{
+     height:94px;
+     width: 100%;
+
+}
+/*------------footer-middle-----------------*/
+footer .footer-middle{
+    height: 70px;
+    width: 1000px;
+    background-color:rgb(35,47,62);
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+footer .footer-middle a img{
+    height: 18px;
+    width: 73px;
+    position: relative;
+    right: 65px;
+    background-color:rgb(35,47,62);
+}
+footer .footer-middle a {
+    position:relative;
+    bottom:10px;
+    position: relative;
+    bottom: -13px;
+    
+
+}
+footer .footer-middle .middle-items {
+    display: flex;
+    justify-content: center;
+    
+    color: white;
+    border: 1px solid white;
+    margin: 2px;
+    height: 34px;
+    width: 117px;
+
+    align-items: center;
+    
+
+}
+#usa-flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    border: 1px solid white;
+    margin:2px;
+    height: 34px;
+    width: 122px;
+   font-size: 13px;
+}
+#usa-flag a img{
+    height: 14px;
+    width: 24px;
+    position:relative;
+    top: -11px;
+    right: 5px;
+}
+footer .footer-bottom{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+/*.penal{
+    background-color:rgb(25,88,81) ;
+    height: 40px;
+    width: 1012px;
+    display: flex;
+
+}
+#manu{
+    position:relative;
+    top:-25px;
+    right: -16px;
+    width: 20px;
+    color:white;
+    display: flex;
+    justify-content: flex-start;
+}
+.penal {
+
+}*/
